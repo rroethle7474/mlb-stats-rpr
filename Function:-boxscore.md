@@ -1,6 +1,6 @@
 Get a formatted boxscore for a given game.
 
-To retrieve the data used to build the formatted text, see [Function: boxscore_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-boxscore).
+To retrieve the data used to build the formatted text, see [Function: boxscore_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-boxscore_data).
 
 Note: This function uses the game endpoint instead of game_box,
 because game_box does not contain the players' names as they should be
