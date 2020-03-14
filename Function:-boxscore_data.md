@@ -2,7 +2,7 @@
 
 > *Note*: To retrieve a formatted text version of the box score, see [Function: boxscore](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-boxscore).
 
-> Note: This function uses the game endpoint instead of game_box, because game_box does not contain the players' names as they should be displayed in the box score (e.g. Last name only or Last, F)
+> *Note*: This function uses the game endpoint instead of game_box, because game_box does not contain the players' names as they should be displayed in the box score (e.g. Last name only or Last, F)
 
 It is possible to get the boxscore as it existed at a specific time by including the timestamp in the timecode parameter.
 The timecode should be in the format YYYYMMDD_HHMMSS, and in the UTC timezone
