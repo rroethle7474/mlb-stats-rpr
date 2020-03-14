@@ -1,8 +1,8 @@
-Get a formatted boxscore for a given game.
+### Get a formatted boxscore for a given game.
 
-To retrieve the data used to build the formatted text, see [Function: boxscore_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-boxscore_data).
+> *Note*: To retrieve the data used to build the formatted text, see [Function: boxscore_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-boxscore_data).
 
-Note: This function uses the game endpoint instead of game_box,
+> *Note*: This function uses the game endpoint instead of game_box,
 because game_box does not contain the players' names as they should be
 displayed in the box score (e.g. Last name only or Last, F)
 
@@ -12,13 +12,17 @@ For example, 4/24/19 10:32:40 EDT (-4) would be: 20190425_012240
 A list of timestamps for game events can be found through the game_timestamps endpoint:
 statsapi.get('game_timestamps',{'gamePk':565997})
 
-Example use:
+Which sections are included can be customized using the battingBox, battingInfo, pitchingBox, and gameInfo parameters
+All default to True; set to False to exclude from the results
+For example, to retrieve only the batting box: statsapi.boxscore(565997,battingInfo=False,fieldingInfo=False,pitchingBox=False,gameInfo=False)
+
+## Example use:
 
 Print the full box score for Phillies @ Mets game on 4/24/2019 (gamePk=565997):
 
 `print( statsapi.boxscore(565997) )`
 
-Output:
+### Output:
 
     ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------
     Phillies Batters                         AB   R   H  RBI BB   K  LOB AVG   OPS  | Mets Batters                             AB   R   H  RBI BB   K  LOB AVG   OPS
@@ -90,7 +94,3 @@ Output:
     Venue: Citi Field.
     April 24, 2019
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Which sections are included can be customized using the battingBox, battingInfo, pitchingBox, and gameInfo parameters
-All default to True; set to False to exclude from the results
-For example, to retrieve only the batting box: statsapi.boxscore(565997,battingInfo=False,fieldingInfo=False,pitchingBox=False,gameInfo=False)
