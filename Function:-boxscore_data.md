@@ -7,7 +7,7 @@
 `boxscore_data(gamePk, timecode=None)`
 
 It is possible to get the boxscore as it existed at a specific time by including the timestamp in the timecode parameter.
-The timecode should be in the format YYYYMMDD_HHMMSS, and in the UTC timezone
-For example, 4/24/19 10:32:40 EDT (-4) would be: 20190425_012240
+The timecode should be in the format `YYYYMMDD_HHMMSS`, and in the UTC timezone
+For example, 4/24/19 10:32:40 EDT (-4) would be: `20190425_012240`
 A list of timestamps for game events can be found through the game_timestamps endpoint (using the [get function](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-get)):
 `statsapi.get('game_timestamps',{'gamePk':565997})`
