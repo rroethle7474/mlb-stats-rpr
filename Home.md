@@ -1,6 +1,6 @@
 ## Installation
 
-Install from PyPi using pip:
+Install from PyPI using pip:
 
 `pip install MLB-StatsAPI` or `python -m pip install MLB-StatsAPI`
 
