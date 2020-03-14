@@ -9,14 +9,14 @@ displayed in the box score (e.g. Last name only or Last, F)
 `def boxscore(gamePk, battingBox=True, battingInfo=True, fieldingInfo=True, pitchingBox=True, gameInfo=True, timecode=None)`
 
 It is possible to get the boxscore as it existed at a specific time by including the timestamp in the timecode parameter.
-The timecode should be in the format YYYYMMDD_HHMMSS, and in the UTC timezone
-For example, 4/24/19 10:32:40 EDT (-4) would be: 20190425_012240
-A list of timestamps for game events can be found through the game_timestamps endpoint:
-statsapi.get('game_timestamps',{'gamePk':565997})
+The timecode should be in the format `YYYYMMDD_HHMMSS`, and in the UTC timezone
+For example, 4/24/19 10:32:40 EDT (-4) would be: `20190425_012240`
+A list of timestamps for game events can be found through the game_timestamps endpoint (using the [get function](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-get)):
+`statsapi.get('game_timestamps',{'gamePk':565997})`
 
-Which sections are included can be customized using the battingBox, battingInfo, pitchingBox, and gameInfo parameters
-All default to True; set to False to exclude from the results
-For example, to retrieve only the batting box: statsapi.boxscore(565997,battingInfo=False,fieldingInfo=False,pitchingBox=False,gameInfo=False)
+Which sections are included can be customized using the `battingBox`, `battingInfo`, `pitchingBox`, and `gameInfo `parameters
+All default to `True`; set to `False `to exclude from the results
+For example, to retrieve only the batting box: `statsapi.boxscore(565997,battingInfo=False,fieldingInfo=False,pitchingBox=False,gameInfo=False)`
 
 ## Example:
 
