@@ -1,6 +1,6 @@
 Get available values from StatsAPI for use in other queries, or look up descriptions for values found in API results.
 
-`meta(type, fields=None)`
+`statsapi.meta(type, fields=None)`
 
 Limit the fields returned by providing a comma-separated list in the `fields` parameter. Get the field names from the un-limited response for the same `type`.
 
