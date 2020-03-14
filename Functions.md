@@ -1,29 +1,31 @@
+## Core functions
+* [get](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-get)
+* [meta](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-meta)
+* [notes](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-notes) (returns info from MLB-StatsAPI module only, no calls to StatsAPI endpoints)
+
 ## Functions that return formatted text
-* boxscore
-* game_highlights
-* game_pace
-* game_scoring_plays
-* last_game (returns gamePk only)
-* league_leaders
-* linescore
-* next_game (returns gamePk only)
-* notes (returns info from MLB-StatsAPI module only, no calls to StatsAPI endpoints)
-* player_stats
-* roster
-* standings
-* team_leaders
+* [boxscore](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-boxscore)
+* [game_highlights](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_highlights)
+* [game_pace](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_pace)
+* [game_scoring_plays](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_scoring_plays)
+* [last_game](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-last_game) (returns gamePk only)
+* [league_leaders](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-league_leaders)
+* [linescore](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-linescore)
+* [next_game](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-next_game) (returns gamePk only)
+* [player_stats](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-player_stats)
+* [roster](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-roster)
+* [standings](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-standings)
+* [team_leaders](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-team_leaders)
 
 ## Functions that return data in a Python dictionary
-* boxscore_data
-* game_highlight_data
-* game_pace_data
-* game_scoring_play_data
-* get
-* league_leader_data
-* lookup_player
-* lookup_team
-* meta
-* player_stat_data
-* schedule
-* standings_data
-* team_leader_data
+* [boxscore_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-boxscore_data)
+* [game_highlight_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_highlight_data)
+* [game_pace_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_pace_data)
+* [game_scoring_play_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_scoring_play_data)
+* [league_leader_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-league_leader_data)
+* [lookup_player](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-lookup_player)
+* [lookup_team](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-lookup_team)
+* [player_stat_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-player_stat_data)
+* [schedule](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-schedule)
+* [standings_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-standings_data)
+* [team_leader_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-team_leader_data)
