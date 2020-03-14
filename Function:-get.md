@@ -2,6 +2,8 @@ Call MLB StatsAPI and return JSON data.
 
 This function is for advanced querying of the MLB StatsAPI, and is used by the functions in this library.
 
+`statsapi.get(endpoint, params, force=False)`
+
 `endpoint` is one of the keys in the [ENDPOINT dict](https://github.com/toddrob99/MLB-StatsAPI/wiki/Endpoints).
 
 `params` is a dict of parameters, as defined in the `ENDPOINT` dict for each endpoint.
