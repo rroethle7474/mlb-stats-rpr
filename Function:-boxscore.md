@@ -18,7 +18,7 @@ Which sections are included can be customized using the battingBox, battingInfo,
 All default to True; set to False to exclude from the results
 For example, to retrieve only the batting box: statsapi.boxscore(565997,battingInfo=False,fieldingInfo=False,pitchingBox=False,gameInfo=False)
 
-## Example use:
+## Example:
 
 Print the full box score for Phillies @ Mets game on 4/24/2019 (gamePk=565997):
 
