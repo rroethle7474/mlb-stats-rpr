@@ -18,6 +18,7 @@
 * fields
 
 -----
+
 ## Endpoint: `awards`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/awards{awardId}{recipients}`
@@ -39,6 +40,7 @@
 Call awards endpoint with no parameters to return a list of awardIds.
 
 -----
+
 ## Endpoint: `conferences`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/conferences`
@@ -53,6 +55,7 @@ Call awards endpoint with no parameters to return a list of awardIds.
 * fields
 
 -----
+
 ## Endpoint: `divisions`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/divisions`
@@ -70,6 +73,7 @@ Call awards endpoint with no parameters to return a list of awardIds.
 Call divisions endpoint with no parameters to return a list of divisions.
 
 -----
+
 ## Endpoint: `draft`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/draft{prospects}{year}{latest}`
@@ -98,6 +102,7 @@ Call divisions endpoint with no parameters to return a list of divisions.
 No query parameters are honored when "latest" endpoint is queried (year is still required). Prospects and Latest cannot be used together.
 
 -----
+
 ## Endpoint: `game`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/feed/live`
@@ -113,6 +118,7 @@ No query parameters are honored when "latest" endpoint is queried (year is still
 * fields
 
 -----
+
 ## Endpoint: `game_diff`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/feed/live/diffPatch`
@@ -128,6 +134,7 @@ No query parameters are honored when "latest" endpoint is queried (year is still
 * endTimecode
 
 -----
+
 ## Endpoint: `game_timestamps`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/feed/live/timestamps`
@@ -140,6 +147,7 @@ No query parameters are honored when "latest" endpoint is queried (year is still
 * gamePk
 
 -----
+
 ## Endpoint: `game_changes`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/changes`
@@ -156,6 +164,7 @@ No query parameters are honored when "latest" endpoint is queried (year is still
 * fields
 
 -----
+
 ## Endpoint: `game_contextMetrics`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/contextMetrics`
@@ -170,6 +179,7 @@ No query parameters are honored when "latest" endpoint is queried (year is still
 * fields
 
 -----
+
 ## Endpoint: `game_winProbability`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/winProbability`
@@ -187,6 +197,7 @@ No query parameters are honored when "latest" endpoint is queried (year is still
 If you only want the current win probability for each team, try the game_contextMetrics endpoint instad.
 
 -----
+
 ## Endpoint: `game_boxscore`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/boxscore`
@@ -201,6 +212,7 @@ If you only want the current win probability for each team, try the game_context
 * fields
 
 -----
+
 ## Endpoint: `game_content`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/content`
@@ -214,6 +226,7 @@ If you only want the current win probability for each team, try the game_context
 * highlightLimit
 
 -----
+
 ## Endpoint: `game_color`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/feed/color`
@@ -228,6 +241,7 @@ If you only want the current win probability for each team, try the game_context
 * fields
 
 -----
+
 ## Endpoint: `game_color_diff`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/feed/color/diffPatch`
@@ -243,6 +257,7 @@ If you only want the current win probability for each team, try the game_context
 * endTimecode
 
 -----
+
 ## Endpoint: `game_color_timestamps`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/feed/color/timestamps`
@@ -255,6 +270,7 @@ If you only want the current win probability for each team, try the game_context
 * gamePk
 
 -----
+
 ## Endpoint: `game_linescore`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/linescore`
@@ -269,6 +285,7 @@ If you only want the current win probability for each team, try the game_context
 * fields
 
 -----
+
 ## Endpoint: `game_playByPlay`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/game/{gamePk}/playByPlay`
@@ -283,6 +300,7 @@ If you only want the current win probability for each team, try the game_context
 * fields
 
 -----
+
 ## Endpoint: `gamePace`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/gamePace`
@@ -306,6 +324,7 @@ If you only want the current win probability for each team, try the game_context
 * fields
 
 -----
+
 ## Endpoint: `highLow`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/highLow/{orgType}`
@@ -331,6 +350,7 @@ If you only want the current win probability for each team, try the game_context
 Valid values for orgType parameter: player, team, division, league, sport, types.
 
 -----
+
 ## Endpoint: `homeRunDerby`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/honeRunDerby/{gamePk}{bracket}{pool}`
@@ -346,6 +366,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `league`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/league`
@@ -362,6 +383,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `league_allStarBallot`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/league/{leagueId}/allStarBallot`
@@ -377,6 +399,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `league_allStarWriteIns`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/league/{leagueId}/allStarWriteIns`
@@ -392,6 +415,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `league_allStarFinalVote`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/league/{leagueId}/allStarFinalVote`
@@ -407,6 +431,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `people`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/people`
@@ -421,6 +446,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `people_changes`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/people/changes`
@@ -434,6 +460,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `people_freeAgents`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/people/freeAgents`
@@ -449,6 +476,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `person`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/people/{personId}`
@@ -463,6 +491,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 * fields
 
 -----
+
 ## Endpoint: `person_stats`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/people/{personId}/stats/game/{gamePk}`
@@ -481,6 +510,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 Specify "current" instead of a gamePk for a player's current game stats.
 
 -----
+
 ## Endpoint: `jobs`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/jobs`
@@ -496,6 +526,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `jobs_umpires`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/jobs/umpires`
@@ -510,6 +541,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `jobs_umpire_games`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/jobs/umpires/games/{umpireId}`
@@ -525,6 +557,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `jobs_datacasters`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/jobs/datacasters`
@@ -539,6 +572,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `jobs_officialScorers`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/jobs/officialScorers`
@@ -552,6 +586,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `schedule`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/schedule`
@@ -580,6 +615,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `schedule_tied`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/schedule/games/tied`
@@ -595,6 +631,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `schedule_postseason`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/schedule/postseason`
@@ -613,6 +650,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `schedule_postseason_series`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/schedule/postseason/series`
@@ -630,6 +668,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * fields
 
 -----
+
 ## Endpoint: `schedule_postseason_tuneIn`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/schedule/postseason/tuneIn`
@@ -649,6 +688,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 The schedule_postseason_tuneIn endpoint appears to return no data.
 
 -----
+
 ## Endpoint: `seasons`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/seasons{all}`
@@ -671,6 +711,7 @@ The schedule_postseason_tuneIn endpoint appears to return no data.
 Include "all" parameter with value of True to query all seasons. The divisionId and leagueId parameters are supported when "all" is used.
 
 -----
+
 ## Endpoint: `season`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/seasons/{seasonId}`
@@ -686,6 +727,7 @@ Include "all" parameter with value of True to query all seasons. The divisionId 
 * fields
 
 -----
+
 ## Endpoint: `sports`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/sports`
@@ -699,6 +741,7 @@ Include "all" parameter with value of True to query all seasons. The divisionId 
 * fields
 
 -----
+
 ## Endpoint: `sports_players`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/sports/{sportId}/players`
@@ -715,6 +758,7 @@ Include "all" parameter with value of True to query all seasons. The divisionId 
 * fields
 
 -----
+
 ## Endpoint: `standings`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/standings`
@@ -732,6 +776,7 @@ Include "all" parameter with value of True to query all seasons. The divisionId 
 * fields
 
 -----
+
 ## Endpoint: `stats`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/stats`
@@ -760,6 +805,7 @@ Include "all" parameter with value of True to query all seasons. The divisionId 
 * metrics
 
 -----
+
 ## Endpoint: `stats_leaders`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/stats/leaders`
@@ -785,6 +831,7 @@ Include "all" parameter with value of True to query all seasons. The divisionId 
 If excluding season parameter to get all time leaders, include statType=statsSingleSeason or you will likely not get any results.
 
 -----
+
 ## Endpoint: `stats_streaks`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/stats/streaks`
@@ -807,6 +854,7 @@ If excluding season parameter to get all time leaders, include statType=statsSin
 Valid streakType values: "hittingStreakOverall" "hittingStreakHome" "hittingStreakAway" "onBaseOverall" "onBaseHome" "onBaseAway". Valid streakSpan values: "career" "season" "currentStreak" "currentStreakInSeason" "notable" "notableInSeason".
 
 -----
+
 ## Endpoint: `teams`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams`
@@ -825,6 +873,7 @@ Valid streakType values: "hittingStreakOverall" "hittingStreakHome" "hittingStre
 * fields
 
 -----
+
 ## Endpoint: `teams_history`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/history`
@@ -840,6 +889,7 @@ Valid streakType values: "hittingStreakOverall" "hittingStreakHome" "hittingStre
 * fields
 
 -----
+
 ## Endpoint: `teams_stats`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/stats`
@@ -862,6 +912,7 @@ Valid streakType values: "hittingStreakOverall" "hittingStreakHome" "hittingStre
 Use meta('statGroups') to look up valid values for group, and meta('statTypes') for valid values for stats.
 
 -----
+
 ## Endpoint: `teams_affiliates`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/affiliates`
@@ -878,6 +929,7 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 -----
+
 ## Endpoint: `team`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/{teamId}`
@@ -894,6 +946,7 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 -----
+
 ## Endpoint: `team_alumni`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/{teamId}/alumni`
@@ -911,6 +964,7 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 -----
+
 ## Endpoint: `team_coaches`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/{teamId}/coaches`
@@ -926,6 +980,7 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 -----
+
 ## Endpoint: `team_personnel`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/{teamId}/personnel`
@@ -940,6 +995,7 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 -----
+
 ## Endpoint: `team_leaders`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/{teamId}/leaders`
@@ -959,6 +1015,7 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 -----
+
 ## Endpoint: `team_roster`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/teams/{teamId}/roster`
@@ -976,6 +1033,7 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 -----
+
 ## Endpoint: `venue`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/venues`
@@ -991,6 +1049,7 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 -----
+
 ## Endpoint: `meta`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/{type}`
@@ -1006,3 +1065,4 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 The meta endpoint is used to retrieve values to be used within other API calls. Available types: awards, baseballStats, eventTypes, gameStatus, gameTypes, hitTrajectories, jobTypes, languages, leagueLeaderTypes, logicalEvents, metrics, pitchCodes, pitchTypes, platforms, positions, reviewReasons, rosterTypes, scheduleEventTypes, situationCodes, sky, standingsTypes, statGroups, statTypes, windDirection.
 
 -----
+
