@@ -1,0 +1,12 @@
+### Returns a python dict of scoring plays for a given game.
+
+> *Note*: To retrieve a formatted text version, see [Function: game_scoring_plays](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_scoring_plays).
+
+`statsapi.game_scoring_play_data(gamePk)`
+
+Will return a dict containing 3 keys:
+
+* home - home team data
+* away - away team data
+* plays - sorted list of scoring play data
+
