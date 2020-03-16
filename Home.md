@@ -14,7 +14,7 @@ First, import the package:
 
 `import statsapi`
 
-Then call the applicable [function](https://github.com/toddrob99/MLB-StatsAPI/wiki/Functions), such as `schedule`:
+Then call the applicable [function](https://github.com/toddrob99/MLB-StatsAPI/wiki/All-Functions), such as `schedule`:
 
 `sched = statsapi.schedule(start_date='07/01/2018',end_date='07/31/2018',team=143,opponent=121)`
 
