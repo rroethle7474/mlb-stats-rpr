@@ -907,6 +907,8 @@ Valid streakType values: "hittingStreakOverall" "hittingStreakHome" "hittingStre
 * order
 * sortStat
 * fields
+* startDate (use `force=True` until v0.1.8, see [#40](https://github.com/toddrob99/MLB-StatsAPI/issues/40))
+* endDate (use `force=True` until v0.1.8, see [#40](https://github.com/toddrob99/MLB-StatsAPI/issues/40))
 
 ### Note
 Use meta('statGroups') to look up valid values for group, and meta('statTypes') for valid values for stats.
