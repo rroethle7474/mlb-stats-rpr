@@ -1036,6 +1036,27 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 
 -----
 
+## Endpoint: `team_stats`
+
+### URL: `https://statsapi.mlb.com/api/{ver}/teams/{teamId}/stats`
+
+### Required Parameters
+* teamId
+
+### All Parameters
+* ver
+* teamId
+* season
+* statGroup
+* gameType
+* stats
+* fields
+
+### Note
+Use meta('statGroups') to look up valid values for group, and meta('statTypes') for valid values for stats. Endpoint supported as of version 1.2.
+
+-----
+
 ## Endpoint: `venue`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/venues`
