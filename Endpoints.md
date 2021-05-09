@@ -1050,10 +1050,12 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * statGroup
 * gameType
 * stats
+* sportIds
+* sitCodes
 * fields
 
 ### Note
-Use meta('statGroups') to look up valid values for group, and meta('statTypes') for valid values for stats. Endpoint supported as of version 1.2.
+Use meta('statGroups') to look up valid values for group, meta('statTypes') for valid values for stats, and meta('situationCodes') for valid values for sitCodes. Endpoint supported as of version 1.2.
 
 -----
 
