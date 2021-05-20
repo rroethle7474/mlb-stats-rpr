@@ -804,6 +804,9 @@ Include "all" parameter with value of True to query all seasons. The divisionId 
 * personId
 * metrics
 
+### Note
+If no limit is specified, the response will be limited to 50 records.
+
 -----
 
 ## Endpoint: `stats_leaders`
