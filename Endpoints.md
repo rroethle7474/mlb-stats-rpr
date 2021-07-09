@@ -353,7 +353,7 @@ Valid values for orgType parameter: player, team, division, league, sport, types
 
 ## Endpoint: `homeRunDerby`
 
-### URL: `https://statsapi.mlb.com/api/{ver}/honeRunDerby/{gamePk}{bracket}{pool}`
+### URL: `https://statsapi.mlb.com/api/{ver}/homeRunDerby/{gamePk}{bracket}{pool}`
 
 ### Required Parameters
 * gamePk
