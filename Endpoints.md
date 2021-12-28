@@ -870,6 +870,7 @@ Valid streakType values: "hittingStreakOverall" "hittingStreakHome" "hittingStre
 * season
 * activeStatus
 * leagueIds
+* sportId
 * sportIds
 * gameType
 * hydrate
