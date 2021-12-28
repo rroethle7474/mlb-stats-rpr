@@ -1062,6 +1062,28 @@ Use meta('statGroups') to look up valid values for group, meta('statTypes') for 
 
 -----
 
+## Endpoint: `transactions`
+
+### URL: `https://statsapi.mlb.com/api/{ver}/transactions`
+
+### Required Parameters
+* teamId
+* playerId
+* date
+* startDate + endDate
+
+### All Parameters
+* ver
+* sportId
+* teamId
+* playerId
+* date
+* startData
+* endDate
+* fields
+
+-----
+
 ## Endpoint: `venue`
 
 ### URL: `https://statsapi.mlb.com/api/{ver}/venues`
