@@ -22,6 +22,7 @@
 * [statsapi.game_highlight_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_highlight_data) - returns a python list of highlight data, including video links, for a given game
 * [statsapi.game_pace_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_pace_data) - returns a python dict of pace of game information for a given season (back to 1999)
 * [statsapi.game_scoring_play_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-game_scoring_play_data) - returns a python dict of scoring play data for a given game
+* [statsapi.latest_season](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-latest_season) - returns python dict containing seasonId and dates for the latest season
 * [statsapi.league_leader_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-league_leader_data) - returns python list of stat leader data for current or specified season
 * [statsapi.lookup_player](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-lookup_player) - get a list of player data based on first, last, or full name, jersey number, current team Id, position, etc.
 * [statsapi.lookup_team](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-lookup_team) - get a list of teams' info based on the team name, city, abbreviation, or file code
