@@ -1,6 +1,6 @@
 ### Get a info about a team or teams based on the team name, city, abbreviation, or file code.
 
-`statsapi.lookup_team(lookup_value, activeStatus="Y", season=datetime.now().year, sportIds=1)`
+`statsapi.lookup_team(lookup_value, activeStatus="Y", season=None, sportIds=1)`
 
 > *Note*: Values for activeStatus: `Y`, `N`, `B` (Both)
 
