@@ -30,6 +30,9 @@ Output will be a list containing a dict for each game. Fields in the dict:
 * `away_pitcher_note`: pitching report for the away team probable pitcher, if available
 * `current_inning`: current inning (applies best to in-progress games)
 * `inning_state`: state of current inning: `top`, `middle`, `bottom`, `end` (applies best to in-progress games)
+* `venue_id`: id of the venue where the game is/was
+* `venue_name`: name of the venue where the game is/was
+* `national_broadcasts`: list of stations/services hosting a national broadcast, as well as `MLB.tv Free Game` when applicable
 * `summary`:  if the game is final or in progress, the summary will include `<Date> - <Away Team Name> (<Away Score>) @ <Home Team Name> (<Home Score>) (<Game Status>)`. if the game has not started yet, the summary will include `<Date> - <Away Team Name> @ <Home Team Name> (<Game Status>)`
 
 ## Example
