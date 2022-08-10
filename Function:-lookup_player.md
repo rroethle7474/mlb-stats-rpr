@@ -1,6 +1,6 @@
 ### Get data about players based on first, last, or full name.
 
-`statsapi.lookup_player(lookup_value, gameType="R", season=datetime.now().year, sportId=1)`
+`statsapi.lookup_player(lookup_value, gameType="R", season=None, sportId=1)`
 
 ## Example
 
