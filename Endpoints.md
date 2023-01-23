@@ -29,7 +29,7 @@
 ### All Parameters
 * ver
 * awardId
-* recipients
+* recipients (boolean)
 * sportId
 * leagueId
 * season
