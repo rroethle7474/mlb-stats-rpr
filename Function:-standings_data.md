@@ -8,4 +8,6 @@
 
 > *Note*: Format for date = `MM/DD/YYYY`, e.g. `04/24/2019`
 
+> *Note*: The `division` parameter accepts `all` or a specific division abbreviation, e.g. `nle`, `alw`, etc.
+
 > *Note*: Return value will be a dict including division and wildcard standings, unless include_wildcard=False
