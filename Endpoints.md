@@ -79,7 +79,7 @@ Call divisions endpoint with no parameters to return a list of divisions.
 ### URL: `https://statsapi.mlb.com/api/{ver}/draft{prospects}{year}{latest}`
 
 ### Required Parameters
-* year
+N/A
 
 ### All Parameters
 * ver
@@ -99,7 +99,7 @@ Call divisions endpoint with no parameters to return a list of divisions.
 * bisPlayerId
 
 ### Note
-No query parameters are honored when "latest" endpoint is queried (year is still required). Prospects and Latest cannot be used together.
+Year can be omitted to allow the API to default to the current year. No query parameters are honored when "latest" endpoint is queried (year will still be honored). Prospects and Latest cannot be used together.
 
 -----
 
