@@ -79,7 +79,7 @@ Call divisions endpoint with no parameters to return a list of divisions.
 ### URL: `https://statsapi.mlb.com/api/{ver}/draft{prospects}{year}{latest}`
 
 ### Required Parameters
-N/A
+* *None*
 
 ### All Parameters
 * ver
