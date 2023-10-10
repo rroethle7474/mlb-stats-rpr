@@ -691,12 +691,10 @@ The schedule_postseason_tuneIn endpoint appears to return no data.
 
 ## Endpoint: `seasons`
 
-### URL: `https://statsapi.mlb.com/api/{ver}/seasons{all}`
+### URL: `https://statsapi.mlb.com/api/{ver}/seasons{/all}`
 
 ### Required Parameters
 * sportId
-* divisionId
-* leagueId
 
 ### All Parameters
 * ver
@@ -708,7 +706,7 @@ The schedule_postseason_tuneIn endpoint appears to return no data.
 * fields
 
 ### Note
-Include "all" parameter with value of True to query all seasons. The divisionId and leagueId parameters are supported when "all" is used.
+Include `/all` in the path to query all seasons. To do this with this library, pass parameter `all` with a value of `True`. The divisionId and leagueId parameters are supported when "all" is used.
 
 -----
 
