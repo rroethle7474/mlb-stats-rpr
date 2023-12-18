@@ -31,6 +31,7 @@ To get a list of leader categories to use when calling the [team_leaders functio
 * `scheduleEventTypes`
 * `situationCodes`
 * `sky`
+* `sports` (added in v1.7.1)
 * `standingsTypes`
 * `statGroups`
 * `statTypes`
