@@ -20,7 +20,7 @@ Then call the applicable [function](https://github.com/toddrob99/MLB-StatsAPI/wi
 
 ## Logging
 
-The MLB-StatsAPI module utilizes Pyhton's standard Logging module, with the logger name `statsapi`. Set the appropriate log level and attach a log handler to the `statsapi` logger in order to see the logs. For example:
+The MLB-StatsAPI module utilizes Python's standard Logging module, with the logger name `statsapi`. Set the appropriate log level and attach a log handler to the `statsapi` logger in order to see the logs. For example:
 
     import logging
     logger = logging.getLogger('statsapi')
