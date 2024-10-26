@@ -68,6 +68,7 @@ Call awards endpoint with no parameters to return a list of awardIds.
 * divisionId
 * leagueId
 * sportId
+* season
 
 ### Note
 Call divisions endpoint with no parameters to return a list of divisions.
@@ -611,6 +612,7 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * date
 * startDate
 * endDate
+* season
 * opponentId
 * fields
 
