@@ -803,6 +803,8 @@ Include `/all` in the path to query all seasons. To do this with this library, p
 * fields
 * personId
 * metrics
+* startDate
+* endDate
 
 ### Note
 If no limit is specified, the response will be limited to 50 records.
