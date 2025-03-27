@@ -14,6 +14,7 @@ To get a list of leader categories to use when calling the [team_leaders functio
 * `awards`
 * `baseballStats`
 * `eventTypes`
+* `freeGameTypes`
 * `gameStatus`
 * `gameTypes`
 * `hitTrajectories`
@@ -28,10 +29,13 @@ To get a list of leader categories to use when calling the [team_leaders functio
 * `positions`
 * `reviewReasons`
 * `rosterTypes`
+* `runnerDetailTypes`
+* `scheduleTypes`
 * `scheduleEventTypes`
 * `situationCodes`
 * `sky`
 * `standingsTypes`
 * `statGroups`
 * `statTypes`
+* `violationTypes`
 * `windDirection`
