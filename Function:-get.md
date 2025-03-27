@@ -11,6 +11,10 @@ This function is for advanced querying of the MLB StatsAPI, and is used by the f
 `force=True` will force unrecognized parameters into the query string, and ignore parameter requirements. 
 > *Note*: results from Stats API may not be as expected when forcing.
 
+`request_kwargs` is a dict of additional parameters to pass to the underlying `requests.get` call. Of
+particular interest is `request_kwargs={"headers":{"Accept-Encoding": "gzip"}}`, which is recommended
+by MLB for some larger endpoints like `game`. Defaults to `{}`.
+
 ## Example
 `statsapi.get('team', {'teamId':143})` will call the team endpoint for teamId=143 (Phillies)
 
