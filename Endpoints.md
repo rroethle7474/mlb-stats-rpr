@@ -29,7 +29,7 @@
 ### All Parameters
 * ver
 * awardId
-* recipients (boolean)
+* recipients
 * sportId
 * leagueId
 * season
@@ -100,7 +100,7 @@ Call divisions endpoint with no parameters to return a list of divisions.
 * bisPlayerId
 
 ### Note
-Year can be omitted to allow the API to default to the current year. No query parameters are honored when "latest" endpoint is queried (year will still be honored). Prospects and Latest cannot be used together.
+No query parameters are honored when "latest" endpoint is queried (year is still required). Prospects and Latest cannot be used together.
 
 -----
 
@@ -298,6 +298,20 @@ If you only want the current win probability for each team, try the game_context
 * ver
 * gamePk
 * timecode
+* fields
+
+-----
+
+## Endpoint: `game_uniforms`
+
+### URL: `https://statsapi.mlb.com/api/{ver}/uniforms/game`
+
+### Required Parameters
+* gamePks
+
+### All Parameters
+* ver
+* gamePks
 * fields
 
 -----
@@ -612,9 +626,9 @@ Specify "current" instead of a gamePk for a player's current game stats.
 * date
 * startDate
 * endDate
-* season
 * opponentId
 * fields
+* season
 
 -----
 
@@ -693,10 +707,12 @@ The schedule_postseason_tuneIn endpoint appears to return no data.
 
 ## Endpoint: `seasons`
 
-### URL: `https://statsapi.mlb.com/api/{ver}/seasons{/all}`
+### URL: `https://statsapi.mlb.com/api/{ver}/seasons{all}`
 
 ### Required Parameters
 * sportId
+* divisionId
+* leagueId
 
 ### All Parameters
 * ver
@@ -708,7 +724,7 @@ The schedule_postseason_tuneIn endpoint appears to return no data.
 * fields
 
 ### Note
-Include `/all` in the path to query all seasons. To do this with this library, pass parameter `all` with a value of `True`. The divisionId and leagueId parameters are supported when "all" is used.
+Include "all" parameter with value of True to query all seasons. The divisionId and leagueId parameters are supported when "all" is used.
 
 -----
 
@@ -913,8 +929,8 @@ Valid streakType values: "hittingStreakOverall" "hittingStreakHome" "hittingStre
 * order
 * sortStat
 * fields
-* startDate (use `force=True` until v0.1.8, see [#40](https://github.com/toddrob99/MLB-StatsAPI/issues/40))
-* endDate (use `force=True` until v0.1.8, see [#40](https://github.com/toddrob99/MLB-StatsAPI/issues/40))
+* startDate
+* endDate
 
 ### Note
 Use meta('statGroups') to look up valid values for group, and meta('statTypes') for valid values for stats.
@@ -1048,12 +1064,13 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 
 ### Required Parameters
 * teamId
+* season + group
 
 ### All Parameters
 * ver
 * teamId
 * season
-* statGroup
+* group
 * gameType
 * stats
 * sportIds
@@ -1061,7 +1078,22 @@ Use meta('statGroups') to look up valid values for group, and meta('statTypes') 
 * fields
 
 ### Note
-Use meta('statGroups') to look up valid values for group, meta('statTypes') for valid values for stats, and meta('situationCodes') for valid values for sitCodes. Use sitCodes with stats=statSplits. Endpoint supported as of version 1.2.
+Use meta('statGroups') to look up valid values for group, meta('statTypes') for valid values for stats, and meta('situationCodes') for valid values for sitCodes. Use sitCodes with stats=statSplits.
+
+-----
+
+## Endpoint: `team_uniforms`
+
+### URL: `https://statsapi.mlb.com/api/{ver}/uniforms/team`
+
+### Required Parameters
+* teamIds
+
+### All Parameters
+* ver
+* teamIds
+* season
+* fields
 
 -----
 
@@ -1077,12 +1109,12 @@ Use meta('statGroups') to look up valid values for group, meta('statTypes') for 
 
 ### All Parameters
 * ver
-* sportId
 * teamId
 * playerId
 * date
-* startData
+* startDate
 * endDate
+* sportId
 * fields
 
 -----
