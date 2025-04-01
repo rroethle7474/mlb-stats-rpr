@@ -2,11 +2,13 @@
 
 > *Note*: To retrieve the data used to build the formatted text, see [Function: player_stat_data](https://github.com/toddrob99/MLB-StatsAPI/wiki/Function:-player_stat_data).
 
-`statsapi.player_stats(personId, group="[hitting,pitching,fielding]", type="season")`
+`statsapi.player_stats(personId, group="[hitting,pitching,fielding]", type="season", season=None)`
 
 > *Note*: For group use `hitting`, `pitching`, or `fielding`. Include multiple groups in the following format (this is a string, not actually a list): `group='[hitting,pitching]'`
 
 > *Note*: For type use `career` or `season`. Include multiple types in the following format (this is a string, not actually a list): `group='[career,season]'`
+
+> *Note*: The `season` argument can only be used when `type` includes "season".
 
 ## Example
 
