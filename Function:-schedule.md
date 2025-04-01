@@ -1,6 +1,6 @@
 ### Get list of games for a given date/range and/or team/opponent.
 
-`statsapi.schedule(date=None, start_date=None, end_date=None, team="", opponent="", sportId=1, game_id=None)`
+`statsapi.schedule(date=None, start_date=None, end_date=None, team="", opponent="", sportId=1, game_id=None, season=None, include_series_status=True)`
 
 > *Note*: Include a game_id to get data for that game.
 
